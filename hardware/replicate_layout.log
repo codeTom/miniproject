@@ -1,0 +1,188 @@
+02-08 01:02:09 replicate_layout.action_replicate_layout 313:Plugin executed on: 'linux'
+02-08 01:02:09 replicate_layout.action_replicate_layout 314:Plugin executed with python version: '3.8.5 (default, Jan 27 2021, 15:41:15) \n[GCC 9.3.0]'
+02-08 01:02:09 replicate_layout.action_replicate_layout 315:KiCad build version: Unknown
+02-08 01:02:09 replicate_layout.action_replicate_layout 316:Replicate layout plugin version: 74 started
+02-08 01:02:09 replicate_layout.action_replicate_layout 329:All top level windows titles are:
+kicad 5.1.5+dfsg1-2build2 /home/filip/documents/sensors/project/cell_pcb/cell_illuminator/cell_illuminator.pro
+
+pcbnew — /home/filip/documents/sensors/project/cell_pcb/cell_illuminator/cell_illuminator.kicad_pcb
+
+
+3d viewer
+
+eeschema — well_illumination.sch [/wellillumination/] — /home/filip/documents/sensors/project/cell_pcb/cell_illuminator
+
+replicate layout
+02-08 01:02:09 replicate_layout.action_replicate_layout 330:All top level windows objects are:
+ <wx._core.Frame object at 0x7fa1d82c01f0>
+<wx._core.Frame object at 0x7fa1d82c0430>
+<wx._core.Frame object at 0x7fa1d82c01f0>
+<wx._core.Frame object at 0x7fa1d82c0430>
+<wx._core.Frame object at 0x7fa1d82c01f0>
+<wx._core.Frame object at 0x7fa1d82c0430>
+<wx._core.Frame object at 0x7fa1d82c01f0>
+<wx._core.Frame object at 0x7fa1d82c0430>
+<wx._core.Frame object at 0x7fa1d82c01f0>
+<replicate_layout.action_replicate_layout.ReplicateLayoutDialog object at 0x7fa1fbcb49d0>
+02-08 01:02:09 replicate_layout.action_replicate_layout 353:Preparing replicator with U201 as a reference
+02-08 01:02:09 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+02-08 01:02:09 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{'61FA447A': ['WellIllumination', '/home/filip/Documents/sensors/project/cell_pcb/cell_illuminator/well_illumination.sch'], '6212B643': ['sheet6212B63C', '/home/filip/Documents/sensors/project/cell_pcb/cell_illuminator/well_illumination.sch'], '6212C98A': ['sheet6212C983', '/home/filip/Documents/sensors/project/cell_pcb/cell_illuminator/well_illumination.sch'], '62132D23': ['sheet62132D1C', '/home/filip/Documents/sensors/project/cell_pcb/cell_illuminator/well_illumination.sch'], '621323B6': ['sheet621323AF', '/home/filip/Documents/sensors/project/cell_pcb/cell_illuminator/well_illumination.sch'], '6212E7ED': ['sheet6212E7E6', '/home/filip/Documents/sensors/project/cell_pcb/cell_illuminator/well_illumination.sch']}
+02-08 01:02:09 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+02-08 01:02:09 replicate_layout.action_replicate_layout 379:source anchor footprint is 'U201'
+Located on:['WellIllumination']
+With filenames:['well_illumination.sch']
+With sheet_id:['WellIllumination']
+02-08 01:02:09 replicate_layout.action_replicate_layout 384:Corresponding footprints are 
+[('U701', ['sheet6212E7E6']), ('U601', ['sheet621323AF']), ('U501', ['sheet62132D1C']), ('U401', ['sheet6212C983']), ('U301', ['sheet6212B63C']), ('U201', ['WellIllumination'])]
+02-08 01:02:09 replicate_layout.action_replicate_layout 397:Showing dialog
+02-08 01:02:09 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'WellIllumination', file:'well_illumination.sch'
+02-08 01:02:09 replicate_layout.replicatelayout 256:Source sheet path up to the level:['WellIllumination']
+02-08 01:02:09 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['U701', 'U601', 'U501', 'U401', 'U301', 'U201']
+02-08 01:02:09 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/6212E7ED/620FE325', '/621323B6/620FE325', '/62132D23/620FE325', '/6212C98A/620FE325', '/6212B643/620FE325', '/61FA447A/620FE325']
+02-08 01:02:09 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['sheet6212E7E6'], ['sheet621323AF'], ['sheet62132D1C'], ['sheet6212C983'], ['sheet6212B63C'], ['WellIllumination']]
+02-08 01:02:09 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['WellIllumination'], ['sheet6212B63C'], ['sheet6212C983'], ['sheet6212E7E6'], ['sheet621323AF'], ['sheet62132D1C']]
+02-08 01:02:09 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['sheet6212B63C'], ['sheet6212C983'], ['sheet6212E7E6'], ['sheet621323AF'], ['sheet62132D1C']]
+02-08 01:02:10 replicate_layout.action_replicate_layout 401:Pcbnew position: wx.Point(480, 0)
+02-08 01:02:10 replicate_layout.action_replicate_layout 407:Display 0: wx.Rect(0, 900, 1920, 1200)
+02-08 01:02:10 replicate_layout.action_replicate_layout 407:Display 1: wx.Rect(480, 0, 1440, 900)
+02-08 01:02:10 replicate_layout.action_replicate_layout 407:Display 2: wx.Rect(1920, 582, 1920, 1080)
+02-08 01:02:10 replicate_layout.action_replicate_layout 411:Toolbar position: wx.Point(1700, 130)
+02-08 01:02:10 replicate_layout.action_replicate_layout 418:Dialog position: wx.Point(1387, 130)
+02-08 01:02:14 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'WellIllumination', file:'well_illumination.sch'
+02-08 01:02:14 replicate_layout.replicatelayout 256:Source sheet path up to the level:['WellIllumination']
+02-08 01:02:14 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['U701', 'U601', 'U501', 'U401', 'U301', 'U201']
+02-08 01:02:14 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/6212E7ED/620FE325', '/621323B6/620FE325', '/62132D23/620FE325', '/6212C98A/620FE325', '/6212B643/620FE325', '/61FA447A/620FE325']
+02-08 01:02:14 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['sheet6212E7E6'], ['sheet621323AF'], ['sheet62132D1C'], ['sheet6212C983'], ['sheet6212B63C'], ['WellIllumination']]
+02-08 01:02:14 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['WellIllumination'], ['sheet6212B63C'], ['sheet6212C983'], ['sheet6212E7E6'], ['sheet621323AF'], ['sheet62132D1C']]
+02-08 01:02:14 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['sheet6212B63C'], ['sheet6212C983'], ['sheet6212E7E6'], ['sheet621323AF'], ['sheet62132D1C']]
+02-08 01:02:14 replicate_layout.action_replicate_layout 186:Replicating layout
+02-08 01:02:14 replicate_layout.replicatelayout 999:Starting replication of sheets: [['sheet6212B63C'], ['sheet6212C983'], ['sheet6212E7E6'], ['sheet621323AF'], ['sheet62132D1C']]
+on level: ['WellIllumination']
+with tracks=True, zone=True, text=True, containing=True, remove=True, locked=False
+02-08 01:02:14 root 269:updating GUI message: 'Preparing for replication'
+02-08 01:02:16 replicate_layout.replicatelayout 556:Getting the list of source footprints
+02-08 01:02:16 root 274:updating GUI with: 0
+02-08 01:02:16 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+02-08 01:02:16 replicate_layout.replicatelayout 564:Getting nets local to source footprints
+02-08 01:02:16 replicate_layout.replicatelayout 568:Getting source bounding box
+02-08 01:02:16 root 274:updating GUI with: 37
+02-08 01:02:16 replicate_layout.replicatelayout 572:Getting source tracks
+02-08 01:02:16 replicate_layout.replicatelayout 576:Getting source zones
+02-08 01:02:16 root 274:updating GUI with: 62
+02-08 01:02:16 replicate_layout.replicatelayout 580:Getting source text items
+02-08 01:02:16 replicate_layout.replicatelayout 584:Getting source text items
+02-08 01:02:16 replicate_layout.replicatelayout 1030:Removing tracks and zones, before module placement
+02-08 01:02:16 root 269:updating GUI message: 'Removing zones and tracks'
+02-08 01:02:16 root 274:updating GUI with: 20
+02-08 01:02:16 root 274:updating GUI with: 40
+02-08 01:02:16 root 274:updating GUI with: 60
+02-08 01:02:17 root 274:updating GUI with: 80
+02-08 01:02:17 root 269:updating GUI message: 'Replicating footprints'
+02-08 01:02:17 root 274:updating GUI with: 0
+02-08 01:02:17 replicate_layout.replicatelayout 590:Replicating footprints
+02-08 01:02:17 root 274:updating GUI with: 0
+02-08 01:02:17 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet6212B63C']
+02-08 01:02:17 root 274:updating GUI with: 7
+02-08 01:02:17 root 274:updating GUI with: 11
+02-08 01:02:17 root 274:updating GUI with: 14
+02-08 01:02:17 root 274:updating GUI with: 15
+02-08 01:02:17 root 274:updating GUI with: 16
+02-08 01:02:17 root 274:updating GUI with: 16
+02-08 01:02:17 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet6212C983']
+02-08 01:02:17 root 274:updating GUI with: 23
+02-08 01:02:17 root 274:updating GUI with: 28
+02-08 01:02:17 root 274:updating GUI with: 33
+02-08 01:02:17 root 274:updating GUI with: 34
+02-08 01:02:17 root 274:updating GUI with: 35
+02-08 01:02:17 root 274:updating GUI with: 36
+02-08 01:02:17 root 274:updating GUI with: 36
+02-08 01:02:17 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet6212E7E6']
+02-08 01:02:17 root 274:updating GUI with: 41
+02-08 01:02:17 root 274:updating GUI with: 46
+02-08 01:02:17 root 274:updating GUI with: 51
+02-08 01:02:17 root 274:updating GUI with: 54
+02-08 01:02:17 root 274:updating GUI with: 55
+02-08 01:02:17 root 274:updating GUI with: 56
+02-08 01:02:17 root 274:updating GUI with: 57
+02-08 01:02:17 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet621323AF']
+02-08 01:02:17 root 274:updating GUI with: 64
+02-08 01:02:17 root 274:updating GUI with: 69
+02-08 01:02:17 root 274:updating GUI with: 74
+02-08 01:02:17 root 274:updating GUI with: 75
+02-08 01:02:17 root 274:updating GUI with: 75
+02-08 01:02:17 root 274:updating GUI with: 76
+02-08 01:02:17 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['sheet62132D1C']
+02-08 01:02:17 root 274:updating GUI with: 82
+02-08 01:02:17 root 274:updating GUI with: 87
+02-08 01:02:17 root 274:updating GUI with: 92
+02-08 01:02:17 root 274:updating GUI with: 94
+02-08 01:02:17 root 274:updating GUI with: 95
+02-08 01:02:17 root 274:updating GUI with: 96
+02-08 01:02:17 root 274:updating GUI with: 98
+02-08 01:02:17 replicate_layout.replicatelayout 1038:Removing tracks and zones, after module placement
+02-08 01:02:17 root 269:updating GUI message: 'Removing zones and tracks'
+02-08 01:02:17 root 274:updating GUI with: 0
+02-08 01:02:17 root 274:updating GUI with: 20
+02-08 01:02:17 root 274:updating GUI with: 40
+02-08 01:02:17 root 274:updating GUI with: 60
+02-08 01:02:17 root 274:updating GUI with: 80
+02-08 01:02:17 root 269:updating GUI message: 'Replicating tracks'
+02-08 01:02:17 root 274:updating GUI with: 0
+02-08 01:02:17 replicate_layout.replicatelayout 720:Replicating tracks
+02-08 01:02:17 root 274:updating GUI with: 0
+02-08 01:02:17 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['sheet6212B63C']
+02-08 01:02:17 root 274:updating GUI with: 0
+02-08 01:02:17 root 274:updating GUI with: 8
+02-08 01:02:17 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['sheet6212C983']
+02-08 01:02:17 root 274:updating GUI with: 20
+02-08 01:02:17 root 274:updating GUI with: 33
+02-08 01:02:17 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['sheet6212E7E6']
+02-08 01:02:17 root 274:updating GUI with: 40
+02-08 01:02:17 root 274:updating GUI with: 54
+02-08 01:02:17 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['sheet621323AF']
+02-08 01:02:17 root 274:updating GUI with: 60
+02-08 01:02:17 root 274:updating GUI with: 68
+02-08 01:02:17 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['sheet62132D1C']
+02-08 01:02:17 root 274:updating GUI with: 80
+02-08 01:02:17 root 274:updating GUI with: 84
+02-08 01:02:17 root 269:updating GUI message: 'Replicating zones'
+02-08 01:02:17 replicate_layout.replicatelayout 771:Replicating zones
+02-08 01:02:17 root 274:updating GUI with: 0
+02-08 01:02:17 replicate_layout.replicatelayout 778:Replicating zones on sheet ['sheet6212B63C']
+02-08 01:02:17 root 274:updating GUI with: 20
+02-08 01:02:17 replicate_layout.replicatelayout 778:Replicating zones on sheet ['sheet6212C983']
+02-08 01:02:17 root 274:updating GUI with: 40
+02-08 01:02:17 replicate_layout.replicatelayout 778:Replicating zones on sheet ['sheet6212E7E6']
+02-08 01:02:17 root 274:updating GUI with: 60
+02-08 01:02:17 replicate_layout.replicatelayout 778:Replicating zones on sheet ['sheet621323AF']
+02-08 01:02:17 root 274:updating GUI with: 80
+02-08 01:02:17 replicate_layout.replicatelayout 778:Replicating zones on sheet ['sheet62132D1C']
+02-08 01:02:17 root 269:updating GUI message: 'Replicating text'
+02-08 01:02:17 root 274:updating GUI with: 0
+02-08 01:02:17 replicate_layout.replicatelayout 837:Replicating text
+02-08 01:02:17 root 274:updating GUI with: 0
+02-08 01:02:17 replicate_layout.replicatelayout 844:Replicating text on sheet ['sheet6212B63C']
+02-08 01:02:17 replicate_layout.replicatelayout 844:Replicating text on sheet ['sheet6212C983']
+02-08 01:02:17 replicate_layout.replicatelayout 844:Replicating text on sheet ['sheet6212E7E6']
+02-08 01:02:17 replicate_layout.replicatelayout 844:Replicating text on sheet ['sheet621323AF']
+02-08 01:02:17 replicate_layout.replicatelayout 844:Replicating text on sheet ['sheet62132D1C']
+02-08 01:02:17 root 269:updating GUI message: 'Replicating drawings'
+02-08 01:02:17 replicate_layout.replicatelayout 868:Replicating drawings
+02-08 01:02:17 root 274:updating GUI with: 0
+02-08 01:02:17 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['sheet6212B63C']
+02-08 01:02:17 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['sheet6212C983']
+02-08 01:02:17 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['sheet6212E7E6']
+02-08 01:02:17 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['sheet621323AF']
+02-08 01:02:17 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['sheet62132D1C']
+02-08 01:02:17 replicate_layout.action_replicate_layout 209:Replication complete

@@ -1,0 +1,19 @@
+02-08 03:50:43 length_stats.action_length_stats 304:Plugin executed on: 'linux'
+02-08 03:50:43 length_stats.action_length_stats 305:Plugin executed with python version: '3.8.5 (default, Jan 27 2021, 15:41:15) \n[GCC 9.3.0]'
+02-08 03:50:43 length_stats.action_length_stats 306:KiCad build version: Unknown
+02-08 03:50:43 length_stats.action_length_stats 307:Length stats plugin version: 30 started
+02-08 03:50:43 STDERR 345:/home/filip/.kicad_plugins/length_stats/action_length_stats.py:55: wxPyDeprecationWarning: Call to deprecated item. Use SetSizeHints instead.
+02-08 03:50:43 STDERR 345:  self.SetSizeHintsSz(sz1, sz2)
+02-08 03:50:43 length_stats.action_length_stats 207:Sorting list
+02-08 03:50:43 length_stats.action_length_stats 95:Length stats gui initialized
+02-08 03:50:43 length_stats.action_length_stats 96:Nets for stats are;
+[]
+02-08 03:50:48 length_stats.action_length_stats 108:Refreshing manually
+02-08 03:50:48 length_stats.action_length_stats 132:Refreshing net lengths
+02-08 03:50:54 length_stats.action_length_stats 250:Copying List
+02-08 03:50:55 STDERR 345:Traceback (most recent call last):
+02-08 03:50:55 STDERR 345:  File "/home/filip/.kicad_plugins/length_stats/action_length_stats.py", line 253, in copy_items
+02-08 03:50:55 STDERR 345:for j in xrange(self.net_list.GetColumnCount()):
+02-08 03:50:55 STDERR 345:NameError
+02-08 03:50:55 STDERR 345::
+02-08 03:50:55 STDERR 345:name 'xrange' is not defined
